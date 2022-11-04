@@ -79,14 +79,14 @@
 /* container */
 
 .container {
-	width: 980px;
+	width: 1100px;
 	min-height: 1000px;
 	max-height: 999999px; /* prevents font boosting */
-	margin: 56px auto 20px; /* top right bottom left */
-	box-shadow: 0 0 7px #122b6d; /*527bbd;*/
-	text-align: left;
+	margin: 16px auto 16px; /* top right bottom left */
+	box-shadow: 0 0 0px #122b6d; /*527bbd;*/
+	text-align: justify;
 	background: #fff;
-	padding: 14px 14px 14px 14px; /* top right bottom left */
+	padding: 16px 32px 16px 32px; /* top right bottom left */
 	z-index: 1;
 }
 
@@ -113,7 +113,7 @@ table#tlayout {
 }
 
 body {
- background: white;
+ background: #f9f6f3;
  font-family: myFont, Georgia;
  padding-bottom: 8px;
  margin: 0;
